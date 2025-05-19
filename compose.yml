@@ -1,0 +1,10 @@
+---
+version: "3"
+services:
+ zomato:
+   container_name: cont1
+   image: deepthivagu/myrepo:zomato
+   ports:
+     - "3000:3000"
+
+ 
